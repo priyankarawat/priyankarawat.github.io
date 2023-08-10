@@ -1,15 +1,12 @@
 {
-"issuer": "https://priyankarawat.github.io",
-"jwks_uri": "https://priyankarawat.github.io/jwks",
-"response_types_supported": [
-"code"
-],
-"subject_types_supported": [
-"public"
-],
-"id_token_signing_alg_values_supported": [
-"RS256"
-],
-"authorization_endpoint": "https://unimplemented",
-"token_endpoint": "https://unimplemented"
+"keys": [
+{
+"kid": "test-oidc-cred",
+"kty": "RSA",
+"alg": "RS256",
+"use": "sig",
+"n": "AIMzI42QIA7K6nBDjSEecg6_8WdxjjUVc9nqT_QbudARj9F2T04LnTTHVRBBvd78eDswOI2WGBI-eEcNfvjO0y4wN2N_vbJFgIqcpmjRSaiLQW-k2IOCcH0tLDQWVN_HMj2aUgzpMelo7pDv4XqZ743c7uUW0oMQwbCWlOVsNLacUhI3poQTpRonFjYiBDQ3ZFoCejlCLcvYzVB6sNHkmmq4xF9XKvuhloDMkN-b2XGx0DomXbA_Cwx1InG7W1J7uDxnJPll0rih-USFuBnjo3YJfE43VPdp7Ic-AzNEd1IntqN6jUU_VsntQ3UoKlN3kQv8qdHAJ86DntKPfhz9mDM",
+"e": "AQAB"
+}
+]
 }
